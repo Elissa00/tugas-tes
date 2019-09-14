@@ -1,0 +1,55 @@
+.top{
+	text-align: center;
+	width: 70%;
+}
+
+table{
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 70%;
+}
+
+td, th{
+	border: 1px solid #ddd;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+.button-posts{
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 10px 12px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.button-comments{
+	background-color: #008CBA;
+	border: none;
+	color: white;
+	padding: 10px 12px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+.box{
+	width: 68%;
+  	height: auto;
+  	padding: 15px;
+  	border-radius: 10px;
+  	box-shadow: 5px 5px 5px 5px lightgrey;
+}
+.comments{
+	margin:10px;
+}
+.hidden{
+	display: none;
+}
